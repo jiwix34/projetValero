@@ -69,13 +69,6 @@ h1 {
 .listenav a:hover {
   color: grey; }
 
-#listecarte {
-  list-style: none; }
-
-.listers {
-  list-style: none;
-  text-align: right; }
-
 /**articles**/
 article {
   text-align: center; }
