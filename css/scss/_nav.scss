@@ -1,8 +1,11 @@
+/**container barre de nav**/
+
 .containernav{
   background-color: black;
   height: 60px;
   line-height: 60px;
 }
+/**ul barre de nav**/
 
 .groupelistenav{
   display:flex;
@@ -10,9 +13,25 @@
   margin-left: -60px;
 }
 
+/**liste barre de nav **/
+
 .listenav{
   color: white;
   list-style: none;
   font-size: 24px;
   margin-left: 10px;
+
+}
+
+/**lien barre de nav**/
+
+.listenav a{
+  text-decoration: none;
+  color:white;
+}
+
+/**hover barre de nav**/
+
+.listenav a:hover{
+  color:grey;
 }
