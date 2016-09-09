@@ -1,0 +1,18 @@
+.containernav{
+  background-color: black;
+  height: 60px;
+  line-height: 60px;
+}
+
+.groupelistenav{
+  display:flex;
+  justify-content: center;
+  margin-left: -60px;
+}
+
+.listenav{
+  color: white;
+  list-style: none;
+  font-size: 24px;
+  margin-left: 10px;
+}

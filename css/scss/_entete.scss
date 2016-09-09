@@ -1,3 +1,30 @@
-body{
-  ;
+.entete{
+  background-color: black;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+h1{
+  font-size: 3em;
+}
+#coordonnee{
+  background-color: black;
+  height: 100px;
+  line-height: 160px;
+  text-align: center;
+}
+.groupCoordonnees{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-right:15px;
+}
+.listecoordonne{
+  margin-left: 15px;
+  margin-right: 15px;
+  color: white;
+  font-size: 1.5em;
+
 }
