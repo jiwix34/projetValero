@@ -1,3 +1,5 @@
+/** div titre principal **/
+
 .entete{
   background-color: black;
   height: 200px;
@@ -6,21 +8,32 @@
   color: white;
 }
 
+/**titre principal**/
+
 h1{
   font-size: 3em;
 }
+
+/**div id coordonnee**/
+
 #coordonnee{
   background-color: black;
   height: 100px;
   line-height: 160px;
   text-align: center;
 }
+
+/**ul class coordonnee**/
+
 .groupCoordonnees{
   display: flex;
   justify-content: center;
   list-style: none;
   margin-right:15px;
 }
+
+/**liste class coordonnee**/
+
 .listecoordonne{
   margin-left: 15px;
   margin-right: 15px;
