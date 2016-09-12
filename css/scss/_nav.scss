@@ -19,7 +19,7 @@
   color: white;
   list-style: none;
   font-size: 24px;
-  margin-left: 10px;
+  margin-left: 20px;
 
 }
 
@@ -28,10 +28,12 @@
 .listenav a{
   text-decoration: none;
   color:white;
+  transition: 0.5s;
 }
 
 /**hover barre de nav**/
 
 .listenav a:hover{
+  transition: 0.5s;
   color:grey;
 }

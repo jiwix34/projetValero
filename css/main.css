@@ -1,10 +1,13 @@
 /** div titre principal **/
-.entete {
+#fondtete {
   background-image: url("./img/grey.jpg");
   height: 520px;
   width: 100%;
   text-align: center;
   color: white; }
+
+.entete {
+  margin-top: 100px; }
 
 /**titre principal**/
 h1 {
@@ -21,15 +24,26 @@ h1 {
 .groupCoordonnees {
   display: flex;
   justify-content: center;
-  list-style: none;
-  margin-right: 15px; }
+  list-style: none; }
 
 /**liste class coordonnee**/
 .listecoordonne {
   margin-left: 15px;
   margin-right: 15px;
-  color: white;
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  margin-top: 30px; }
+
+.listecoordonne a {
+  color: grey;
+  text-decoration: none; }
+
+.btn {
+  background-color: #FFDAB4;
+  border: 1px solid #FFDAB4; }
+
+.btn:hover {
+  background-color: #FFCA93;
+  border: 1px solid #FFCA93; }
 
 .sectionimage {
   text-align: center;
@@ -39,6 +53,9 @@ h1 {
 .logo {
   height: 100px;
   width: 120px; }
+
+.lienValero {
+  background-color: #FFDAB4; }
 
 /**container barre de nav**/
 .containernav {
@@ -57,23 +74,22 @@ h1 {
   color: white;
   list-style: none;
   font-size: 24px;
-  margin-left: 10px; }
+  margin-left: 20px; }
 
 /**lien barre de nav**/
 .listenav a {
   text-decoration: none;
-  color: white; }
+  color: white;
+  transition: 0.5s; }
 
 /**hover barre de nav**/
 .listenav a:hover {
+  transition: 0.5s;
   color: grey; }
 
 /*class liste des liens*/
 .listeliens {
   list-style: none; }
-
-.carte {
-  text-align: left; }
 
 .reseaux {
   text-align: right; }
