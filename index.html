@@ -98,9 +98,35 @@
           <h2 id="contact">Me contacter</h2>
         </header>
         <article>
-            <p>
-              formulaire ici
-            </p>
+            <form class="" action="index.html" method="post">
+              <div>
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="user_name" />
+              </div>
+              <div>
+                <label for="prenom">Prénom</label>
+                <input type="prenom" id="prenom" name="user_prenom" />
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="user_email" />
+              </div>
+              <div>
+                <label for="numero">Numéro</label>
+                <input type="numero" id="numero" name="user_numero" />
+              </div>
+              <div>
+                <label for="objet">Objet de la demande</label>
+                <input type="objet" id="objet" name="user_objet"/>
+              </div>
+              <div>
+                <label for="objet">Message</label>
+                <textarea id="message" name="user_message"></textarea>
+              </div>
+              <div class="button">
+                <button type="submit">Envoyer</button>
+              </div>
+            </form>
           </article>
         </section>
     </footer>
