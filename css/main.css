@@ -46,9 +46,6 @@ h1 {
   height: 100px;
   width: 120px; }
 
-.lienValero {
-  background-color: #FFDAB4; }
-
 /**container barre de nav**/
 .containernav {
   background-color: black;
@@ -68,6 +65,18 @@ h1 {
   font-size: 24px;
   margin-left: 20px; }
 
+@media (min-width: 768px) {
+  .groupelistenav {
+    display: flex;
+    justify-content: space-around;
+    margin-left: -50px; }
+
+  /**liste barre de nav **/
+  .listenav {
+    color: white;
+    list-style: none;
+    font-size: 24px;
+    margin-left: 20px; } }
 /**lien barre de nav**/
 .listenav a {
   text-decoration: none;
@@ -98,8 +107,5 @@ article {
 /**section**/
 section h2 {
   text-align: center; }
-
-.toutessections {
-  background-color: #FFDAB4; }
 
 /*# sourceMappingURL=main.css.map */

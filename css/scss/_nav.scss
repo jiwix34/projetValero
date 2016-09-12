@@ -23,6 +23,24 @@
 
 }
 
+@media (min-width:768px) {
+  .groupelistenav{
+    display:flex;
+    justify-content: space-around;
+    margin-left: -50px;
+  }
+
+  /**liste barre de nav **/
+
+  .listenav{
+    color: white;
+    list-style: none;
+    font-size: 24px;
+    margin-left: 20px;
+
+  }
+}
+
 /**lien barre de nav**/
 
 .listenav a{
