@@ -1,20 +1,20 @@
 /** div titre principal **/
 .entete {
-  background-color: #F2EBD8;
-  height: 200px;
+  background-image: url("./img/grey.jpg");
+  height: 520px;
   width: 100%;
   text-align: center;
-  color: black; }
+  color: white; }
 
 /**titre principal**/
 h1 {
-  font-size: 3em; }
+  font-size: 2.5em; }
 
 /**div id coordonnee**/
 #coordonnee {
-  background-color: #F2EBD8;
+  background-color: #FFDAB4;
   height: 100px;
-  line-height: 160px;
+  line-height: 50px;
   text-align: center; }
 
 /**ul class coordonnee**/
@@ -28,11 +28,10 @@ h1 {
 .listecoordonne {
   margin-left: 15px;
   margin-right: 15px;
-  color: black;
+  color: white;
   font-size: 1.5em; }
 
 .sectionimage {
-  background-color: #F2EBD8;
   text-align: center;
   height: auto;
   width: 100%; }
@@ -69,16 +68,19 @@ h1 {
 .listenav a:hover {
   color: grey; }
 
-/*div lien Valero*/
-/*ul liste liens*/
 /*class liste des liens*/
 .listeliens {
-  list-style: none;
+  list-style: none; }
+
+.carte {
+  text-align: left; }
+
+.reseaux {
   text-align: right; }
 
 /*class img liens*/
 .listeliens img {
-  width: 80px;
+  width: 60px;
   margin-top: 15px; }
 
 /**articles**/
@@ -88,5 +90,8 @@ article {
 /**section**/
 section h2 {
   text-align: center; }
+
+.toutessections {
+  background-color: #FFDAB4; }
 
 /*# sourceMappingURL=main.css.map */
