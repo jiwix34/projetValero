@@ -34,16 +34,8 @@ h1 {
   margin-top: 30px; }
 
 .listecoordonne a {
-  color: grey;
+  color: white;
   text-decoration: none; }
-
-.btn {
-  background-color: #FFDAB4;
-  border: 1px solid #FFDAB4; }
-
-.btn:hover {
-  background-color: #FFCA93;
-  border: 1px solid #FFCA93; }
 
 .sectionimage {
   text-align: center;
