@@ -118,7 +118,14 @@ label {
   /*alignement du formulaire*/
   margin-top: 40px; }
 
+.champMessage {
+  height: 200px; }
+
 form button {
-  margin-top: 40px; }
+  margin-top: 20px; }
+
+.resetPadding {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
 
 /*# sourceMappingURL=main.css.map */
