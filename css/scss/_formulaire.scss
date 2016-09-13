@@ -1,7 +1,16 @@
+/**partie formulaire**/
+
 form{
-  ;
+  font-size:20px;/*taille police*/
 }
 
 label{
-  display:block;
+  display:block; /*alignement du formulaire*/
+  margin-top:40px;
+}
+
+form {
+    button{
+      margin-top:40px;
+    }
 }
