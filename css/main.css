@@ -108,4 +108,7 @@ article {
 section h2 {
   text-align: center; }
 
+label {
+  display: block; }
+
 /*# sourceMappingURL=main.css.map */
