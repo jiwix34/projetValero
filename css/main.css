@@ -71,12 +71,7 @@ h1 {
     justify-content: space-around;
     margin-left: -50px; }
 
-  /**liste barre de nav **/
-  .listenav {
-    color: white;
-    list-style: none;
-    font-size: 24px;
-    margin-left: 20px; } }
+  /**liste barre de nav **/ }
 /**lien barre de nav**/
 .listenav a {
   text-decoration: none;
