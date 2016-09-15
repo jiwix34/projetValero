@@ -83,6 +83,22 @@ h1 {
   transition: 0.5s;
   color: grey; }
 
+#grossediv {
+  display: flex; }
+
+.imgprestation {
+  width: 300px;
+  height: 300px; }
+
+.service1 {
+  font-size: 20px; }
+
+.service2 {
+  font-size: 20px; }
+
+.service3 {
+  font-size: 20px; }
+
 /**articles**/
 article {
   text-align: center; }
