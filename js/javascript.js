@@ -2,10 +2,11 @@
     $(function(){
         $("#contact").submit(function(event){
             var nom        = $("#nom").val();
-            var sujet      = $("#sujet").val();
+            var prenom      = $("#prenom").val();
             var email      = $("#email").val();
+            var objet      = $("#objet").val();
             var message    = $("#message").val();
-            var dataString = nom + sujet + email + message;
+            var dataString = nom + prenom + email + objet + message;
             var msg_all    = "Merci de remplir tous les champs";
             var msg_alert  = "Merci de remplir ce champs";
 
@@ -13,10 +14,12 @@
                 $("#msg_all").html(msg_all);
             } else if (nom == "") {
                 $("#msg_nom").html(msg_alert);
-            } else if (sujet == "") {
-                $("#msg_sujet").html(msg_alert);
+            }else if (prenom == "") {
+                $("#msg_prenom").html(msg_alert);
             } else if (email == "") {
                 $("#msg_email").html(msg_alert);
+            } else if (objet == "") {
+                $("#msg_objet").html(msg_alert);
             } else if (message == "") {
                 $("#msg_message").html(msg_alert);
             } else {
