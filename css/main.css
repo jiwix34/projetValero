@@ -129,6 +129,9 @@ h1 {
   font-size: 20px;
   list-style: none; }
 
+.champMessage {
+  resize: none; }
+
 /**articles**/
 article {
   text-align: center; }

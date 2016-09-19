@@ -1,24 +1,40 @@
-/************animation transition : apparition progressive du portofolio**********/
 
-$( document ).ready(function() {
+    $(function(){
+        $("#contact").submit(function(event){
+            var nom        = $("#nom").val();
+            var sujet      = $("#sujet").val();
+            var email      = $("#email").val();
+            var message    = $("#message").val();
+            var dataString = nom + sujet + email + message;
+            var msg_all    = "Merci de remplir tous les champs";
+            var msg_alert  = "Merci de remplir ce champs";
 
-   $("body").css("display", "none");
-   $("body").fadeIn(3600);
-   $("a.transition").click(function(event){
-   event.preventDefault();
-   $("body").fadeOut(2000, redirectPage);
+            if (dataString  == "") {
+                $("#msg_all").html(msg_all);
+            } else if (nom == "") {
+                $("#msg_nom").html(msg_alert);
+            } else if (sujet == "") {
+                $("#msg_sujet").html(msg_alert);
+            } else if (email == "") {
+                $("#msg_email").html(msg_alert);
+            } else if (message == "") {
+                $("#msg_message").html(msg_alert);
+            } else {
+
+              //ajax
+                $.ajax({
+                    type : "POST",
+                    url: $(this).attr("action"),
+                    data: $(this).serialize(),
+                    success : function() {
+                        $("#contact").html("<p>Formulaire bien envoyé</p>");
+                    },
+                    error: function() {
+                        $("#contact").html("<p>Erreur d'appel, le formulaire ne peut pas fonctionner</p>");
+                    }
+                });
+            }
+
+            return false;
+        });
     });
- function redirectPage() {
-  window.location = linkLocation;
-    }
-
-/************function animation de slider sur la barre de navigation******************/
-$('a[href^="#"]').click(function(){
-	var the_id = $(this).attr("href");
-
-	$('html, body').animate({
-		scrollTop:$(the_id).offset().top
-	}, 'slow');
-	return false;
-  });
-});
