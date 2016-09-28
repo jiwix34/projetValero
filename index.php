@@ -50,9 +50,12 @@
       <header>
         <h2 id="presentation">Présentation</h2>
       </header>
-      <article>
+      <article class="texte">
           <p>
-            texte pour la presentation
+            J’exerce le métier de plombier/chauffagiste depuis 1979.
+            J'interviens dans tout type de chantier.
+            Je travaille dans le neuf comme dans la rénovation.
+            Ma mobilité et mon expérience professionnelle me permettent de répondre au mieux à vos attentes.
           </p>
       </article>
     </section>
@@ -63,12 +66,6 @@
       <header>
         <h2 id="prestation">Mes services</h2>
       </header>
-      <article>
-          <p>
-            texte pour les services
-          </p>
-
-      </article>
 
  <!--div des images des secteurs d'acitivités de Valéro  -->
 
@@ -79,9 +76,7 @@
         <div id="divprestation1">
           <img class="imgprestation" src="./css/img/plomberie.jpg"/>
               <ul class="ulservice1">
-                <li class="service1">Service</li>
-                <li class="service1">Service</li>
-                <li class="service1">Service</li>
+                <li class="service1">-Installation sanitaire(tout type)</li>
               </ul>
         </div>
 
@@ -90,9 +85,13 @@
         <div id="divprestation2">
           <img class="imgprestation" src="./css/img/chauffagerie.jpg"/>
             <ul class="ulservice2">
-              <li class="service2">Service</li>
-              <li class="service2">Service</li>
-              <li class="service2">Service</li>
+              <li class="service2">-Pompe à chaleur </li>
+              <li class="service2">-Chauffage au sol</li>
+              <li class="service2">-Installateur de chaudière</li>
+              <li class="service2">-Remplacement de chaudière</li>
+              <li class="service2">-Radiateur</li>
+              <li class="service2">-Agréer le gaz</li>
+
             </ul>
       </div>
 
@@ -101,9 +100,10 @@
       <div id="divprestation3">
         <img class="imgprestation" src="./css/img/renovation.jpg"/>
           <ul class="ulservice3">
-            <li class="service3">Service</li>
-            <li class="service3">Service</li>
-            <li class="service3">Service</li>
+            <li class="service3">-Création de salle de bain</li>
+            <li class="service3">-Rénovation de salle de bain</li>
+            <li class="service3">-Pose de carrelage de faïence</li>
+            <li class="service3">-Modifications électriques</li>
           </ul>
       </div>
     </div>
