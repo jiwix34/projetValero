@@ -1,24 +1,22 @@
-/**partie formulaire**/
-
-form{
-  font-size:20px;/*taille police*/
-}
-
-label{
-  display:block; /*alignement du formulaire*/
-  margin-top:40px;
-}
-
 .champMessage{
-  height:200px;
+  resize: none;
+}
+.container{
+  margin-top: 50px;
+}
+textarea.form-control{
+  height: 200px;
+}
+label{
+  color: black;
+  display: flex;
+  justify-content: center;
 }
 
-form {
-    button{
-      margin-top:20px;
-    }
+.btn-primary{
+  margin-bottom: 50px;
+  margin-top: 25px;
 }
-.resetPadding{
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+.alert{
+  text-align: center;
 }

@@ -70,7 +70,7 @@ h1 {
   .groupelistenav {
     display: flex;
     justify-content: space-around;
-    margin-left: -50px; }
+    margin-left: -100px; }
 
   /**liste barre de nav **/ }
 /**lien barre de nav**/
@@ -141,24 +141,25 @@ article {
 section h2 {
   text-align: center; }
 
-/**partie formulaire**/
-form {
-  font-size: 20px;
-  /*taille police*/ }
-
-label {
-  display: block;
-  /*alignement du formulaire*/
-  margin-top: 40px; }
-
 .champMessage {
+  resize: none; }
+
+.container {
+  margin-top: 50px; }
+
+textarea.form-control {
   height: 200px; }
 
-form button {
-  margin-top: 20px; }
+label {
+  color: black;
+  display: flex;
+  justify-content: center; }
 
-.resetPadding {
-  padding-left: 0 !important;
-  padding-right: 0 !important; }
+.btn-primary {
+  margin-bottom: 50px;
+  margin-top: 25px; }
+
+.alert {
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
