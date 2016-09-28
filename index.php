@@ -4,6 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, , minimum-scale=1, user-scalable=no"><!--responsive---->
+    <link rel="shortcut icon" href="./css/img/logo.png"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/><!--bootstrap----->
     <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
     <link rel="stylesheet" href="./css/main.css"/><!---css------>
