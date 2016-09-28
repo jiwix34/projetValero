@@ -174,6 +174,9 @@
 </div>
 
  </section>
+ <p class="copyright">José VALERO © Copyright 2016 Tous droits réservés</p>
+
+
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script type="text/javascript" src="./js/smoothscroll.js"></script>
