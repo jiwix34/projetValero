@@ -15,19 +15,24 @@
 
      <!-- carte de visite -->
 
-    <div id="fondtete" class=" col-xs-12 ">
-      <header class="entete">
+    <div id="fondtete" class=" col-xs-12">
+      <div class="imagefond">
+        <div class="opaque">
+
+        </div>
+      </div>
+      <header class="texteentete">
         <h1>JOSE VALERO</h1>
         <h1>Plombier - Chauffagiste - Assainissement</h1>
         <h3>Siret: 065265 254</h3>
-        <div class="sectionimage">
-          <img class="logo" src="./css/img/jvs.png" alt="" /><!--img logo-->
-        </div>
-        <ul class="groupCoordonnees">
-          <li class="listecoordonne"><a href="tel:0686485940">Tel: 06.86.48.59.40</a></li>
-          <li class="listecoordonne">Email: jvservices34@gmail.com</li>
-        </ul>
       </header>
+      <div class="sectionimage">
+        <img class="logo" src="./css/img/jvs.png" alt="" /><!--img logo-->
+      </div>
+      <ul class="groupCoordonnees">
+        <li class="listecoordonne"><a href="tel:0686485940">Tel: 06.86.48.59.40</a></li>
+        <li class="listecoordonne">Email: jvservices34@gmail.com</li>
+      </ul>
     </div>
 
     <!-- Barre de nav -->
@@ -48,10 +53,7 @@
       </header>
       <article>
           <p>
-            J’exerce le métier de plombier/chauffagiste depuis 1979.
-            J'interviens dans tout type de chantier.
-            Je travaille dans le neuf comme dans la rénovation.
-            Ma mobilité et mon expérience professionnelle me permettent de répondre au mieux à vos attentes.
+            texte pour la presentation
           </p>
       </article>
     </section>

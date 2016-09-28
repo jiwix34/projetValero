@@ -1,13 +1,25 @@
 /** div titre principal **/
 #fondtete {
-  background-image: url("./img/grey.jpg");
-  height: 520px;
-  width: 100%;
+  height: 600px;
   text-align: center;
-  color: white; }
+  position: relative; }
 
-.entete {
-  margin-top: 100px; }
+.imagefond {
+  background-image: url("./img/header.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 600px; }
+
+.opaque {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  margin-left: -15px;
+  background-color: rgba(0, 0, 0, 0.4); }
+
+.texteentete {
+  margin-top: 100px;
+  color: white; }
 
 /**titre principal**/
 h1 {
@@ -24,7 +36,8 @@ h1 {
 .groupCoordonnees {
   display: flex;
   justify-content: center;
-  list-style: none; }
+  list-style: none;
+  color: white; }
 
 /**liste class coordonnee**/
 .listecoordonne {
