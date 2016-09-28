@@ -48,7 +48,10 @@
       </header>
       <article>
           <p>
-            texte pour la presentation
+            J’exerce le métier de plombier/chauffagiste depuis 1979.
+            J'interviens dans tout type de chantier.
+            Je travaille dans le neuf comme dans la rénovation.
+            Ma mobilité et mon expérience professionnelle me permettent de répondre au mieux à vos attentes.
           </p>
       </article>
     </section>
