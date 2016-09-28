@@ -1,12 +1,13 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, , minimum-scale=1, user-scalable=no"><!--responsive---->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/><!--bootstrap----->
-    <link rel="stylesheet" href="./css/main.css"/><!---css------>
-    <script src="./js/jquery-1.12.4.min.js"></script><!--jquery-->
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
     <script type="text/javascript" src=".js/javascript.js/"></script><!--javascript---->
+    <link rel="stylesheet" href="./css/main.css"/><!---css------>
 
     <title> Projet valero </title>
   </head>
@@ -107,54 +108,70 @@
 
     <!--section formulaire -->
 
-    <footer class=" col-xs-12">
+    <footer>
 
-      <section class=" col-xs-12 toutessections">
-        <header>
-          <h2 id="contact">Me contacter</h2>
-        </header>
-        <article>
-          <div id="form_contact">
-              <form action="./mail.php" id="contact" method="POST">
-          <p>
-            <label for="nom" class="nom">Nom</label>
-            <br /><input id="nom" name="nom" type="text">
-            <span id="msg_nom"></span>
-        </p>
-        <p>
-          <label for="prenom" class="prenom">Prénom</label>
-          <br /><input id="prenom" name="prenom" type="text">
-          <span id="msg_prenom"></span>
-      </p>
-        <p>
-          <label for="numero" class="numero">Numéro</label>
-          <br /><input id="numero" name="numero" type="text">
-          <span id="msg_numero"></span>
-      </p>
-        <p>
-            <label for="email">Email</label>
-            <br /><input id="email" name="email" type="email">
-            <span id="msg_email"></span>
-        </p>
-        <p>
-            <label for="objet">Objet de la demande</label>
-            <br /><input id="objet" name="objet" type="text">
-            <span id="msg_objet"></span>
-        </p>
-        <p>
-          <label for="message">Message</label>
-              <br /><textarea class="champMessage" id="message" name="message" rows="10" cols="80"></textarea>
-             <span id="msg_message"></span>
-          </p>
-          <p>
-              <input type="submit" value="Envoyer" />
-          </p>
-      </form>
-    <span id="msg_all"></span>
-</div><!-- end of #form_contact -->
-          </article>
-        </section>
-    </footer>
+      <div class="container">
+        <div class="starter-template">
+
+          <?php if(array_key_exists('errors', $_SESSION)): ?>
+              <div class="alert alert-danger">
+                  <?= implode('<br>', $_SESSION['errors']); ?>
+              </div>
+          <?php endif; ?>
+          <?php if(array_key_exists('success', $_SESSION)): ?>
+              <div class="alert alert-success">
+                Votre email a bien été envoyé
+              </div>
+          <?php endif; ?>
+
+          <form action="post_contact.php" method="POST">
+            <div class="row">
+              <div class="col-xs-6">
+                <div class="form-group">
+                  <label for="inputname">Votre nom</label>
+                  <input type="text" name="name" class="form-control" id="inputname" value="<?= isset($_SESSION['inputs']['name']) ? $_SESSION['inputs']['name'] : ''; ?>">
+                </div>
+              </div>
+              <div class="col-xs-6">
+                <div class="form-group">
+                  <label for="inputprenom">Votre prénom</label>
+                  <input type="text" name="prenom" class="form-control" id="inputprenom" value="<?= isset($_SESSION['inputs']['prenom']) ? $_SESSION['inputs']['prenom'] : ''; ?>">
+                </div>
+              </div>
+              <div class="col-xs-6">
+                <div class="form-group">
+                  <label for="inputemail">Votre email</label>
+                  <input type="text" name="email" class="form-control" id="inputemail" value="<?= isset($_SESSION['inputs']['email']) ? $_SESSION['inputs']['email'] : ''; ?>">
+                </div>
+              </div>
+              <div class="col-xs-6">
+                <div class="form-group">
+                  <label for="inputobjet">Objet</label>
+                  <input type="text" name="objet" class="form-control" id="inputobjet" value="<?= isset($_SESSION['inputs']['objet']) ? $_SESSION['inputs']['objet'] : ''; ?>">
+                </div>
+              </div>
+              <div class="col-xs-12">
+                <div class="form-group ">
+                  <label for="inputmessage">Votre message</label>
+                  <textarea id="inputmessage" name="message" class="form-control champMessage"><?= isset($_SESSION['inputs']['message']) ? $_SESSION['inputs']['message'] : ''; ?></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary test col-xs-2 col-xs-offset-5">Envoyer</button>
+              </div>
+            </div>
+          </form>
+
+        </div>
+      </div>
+
+       </section>
+      </footer>
 
   </body>
 </html>
+
+<?php
+unset($_SESSION['inputs']);
+unset($_SESSION['errors']);
+unset($_SESSION['success']);
+
+ ?>
