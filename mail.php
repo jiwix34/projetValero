@@ -41,7 +41,7 @@
     // PREPARATION DES DONNEES
     $ip           = $_SERVER["REMOTE_ADDR"];
     $hostname     = gethostbyaddr($_SERVER["REMOTE_ADDR"]);
-    $destinataire = "monadresse@example.com";
+    $destinataire = "thibaut.figueres@gmail.com";
     $objet        = "[Site Web] " . $sujet;
     $contenu      = "Nom de l'expéditeur : " . $nom . "\r\n";
     $contenu     .= $message . "\r\n\n";
