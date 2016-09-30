@@ -137,19 +137,19 @@
 
     <form action="post_contact.php" method="POST">
       <div class="row">
-        <div class="col-xs-6">
+        <div class="col-xs-4">
           <div class="form-group">
             <label for="inputname">Votre nom</label>
             <input type="text" name="name" class="form-control" id="inputname" value="<?= isset($_SESSION['inputs']['name']) ? $_SESSION['inputs']['name'] : ''; ?>">
           </div>
         </div>
-        <div class="col-xs-6">
+        <div class="col-xs-4">
           <div class="form-group">
             <label for="inputprenom">Votre prénom</label>
             <input type="text" name="prenom" class="form-control" id="inputprenom" value="<?= isset($_SESSION['inputs']['prenom']) ? $_SESSION['inputs']['prenom'] : ''; ?>">
           </div>
         </div>
-        <div class="col-xs-6">
+        <div class="col-xs-4">
           <div class="form-group">
             <label for="inputemail">Votre email</label>
             <input type="text" name="email" class="form-control" id="inputemail" value="<?= isset($_SESSION['inputs']['email']) ? $_SESSION['inputs']['email'] : ''; ?>">
@@ -159,6 +159,12 @@
           <div class="form-group">
             <label for="inputobjet">Objet</label>
             <input type="text" name="objet" class="form-control" id="inputobjet" value="<?= isset($_SESSION['inputs']['objet']) ? $_SESSION['inputs']['objet'] : ''; ?>">
+          </div>
+        </div>
+        <div class="col-xs-6">
+          <div class="form-group">
+            <label for="inputtelephone">Telephone</label>
+            <input type="text" name="telephone" class="form-control" id="inputtelephone" value="<?= isset($_SESSION['inputs']['telephone']) ? $_SESSION['inputs']['telephone'] : ''; ?>">
           </div>
         </div>
         <div class="col-xs-12">
