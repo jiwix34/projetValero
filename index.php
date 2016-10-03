@@ -115,7 +115,7 @@
      <div class="thumbnail">
        <img class="taillephoto" src="./css/img/chauffagerie1.jpg">
          <h3>Chauffagerie</h3>
-         <ul>
+         <ul class="groupelisteprestation">
            <li class="listeprestation">Pompe à chaleur</li>
            <li class="listeprestation">Chauffage au sol</li>
            <li class="listeprestation">Installateur chaudière</li>

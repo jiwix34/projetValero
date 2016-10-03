@@ -18,6 +18,16 @@ h3{
   width: 200px
 }
 
+@media(max-width:768px){
+  .taillephoto{
+    width: 150px;
+  }
+}
+
+.thumbnail{
+    height: 435px;
+}
+
 .listeprestation{
   list-style:none;
   text-align:center;
