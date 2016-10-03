@@ -89,7 +89,7 @@ h1 {
   .groupelistenav {
     display: flex;
     justify-content: space-around;
-    margin-left: -100px; } }
+    margin-left: -120px; } }
 /**lien barre de nav**/
 .listenav a {
   text-decoration: none;
