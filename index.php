@@ -74,7 +74,7 @@
     <div class="row">
      <div class="col-sm-6 col-md-4 col-md-offset-1">
        <div class="thumbnail">
-         <img src="./css/img/plomberie1.jpg">
+         <img class="taillephoto" src="./css/img/plomberie1.jpg">
            <h3>Plomberie</h3>
            <ul class="groupelisteprestation">
              <li class="listeprestation">Installation sanitaire (tout type)</li>
@@ -85,7 +85,7 @@
        </div>
        <div class="col-sm-6 col-md-4 col-md-offset-2">
          <div class="thumbnail">
-           <img src="./css/img/renov1.jpg">
+           <img class="taillephoto" src="./css/img/renov1.jpg">
              <h3>Rénovation</h3>
              <ul class="groupelisteprestation">
                <li class="listeprestation">Création / Rénovation de salle de bain</li>
@@ -99,7 +99,7 @@
    <div class="row">
     <div class="col-sm-6 col-md-4 col-md-offset-1">
      <div class="thumbnail">
-       <img src="./css/img/assainissement.jpg">
+       <img class="taillephoto" src="./css/img/assainissement.jpg">
          <h3>Assainissement</h3>
          <ul class="groupelisteprestation">
            <li class="listeprestation">Recherche/réparation de fuite d'eau</li>
@@ -113,7 +113,7 @@
    </div>
    <div class="col-sm-6 col-md-4 col-md-offset-2">
      <div class="thumbnail">
-       <img src="./css/img/chauffagerie1.jpg">
+       <img class="taillephoto" src="./css/img/chauffagerie1.jpg">
          <h3>Chauffagerie</h3>
          <ul>
            <li class="listeprestation">Pompe à chaleur</li>
