@@ -158,19 +158,19 @@
       <div class="row">
         <div class="col-xs-4">
           <div class="form-group">
-            <label for="inputname">Votre nom</label>
+            <label for="inputname">Nom</label>
             <input type="text" name="name" class="form-control" id="inputname" value="<?= isset($_SESSION['inputs']['name']) ? $_SESSION['inputs']['name'] : ''; ?>">
           </div>
         </div>
         <div class="col-xs-4">
           <div class="form-group">
-            <label for="inputprenom">Votre prénom</label>
+            <label for="inputprenom">Prénom</label>
             <input type="text" name="prenom" class="form-control" id="inputprenom" value="<?= isset($_SESSION['inputs']['prenom']) ? $_SESSION['inputs']['prenom'] : ''; ?>">
           </div>
         </div>
         <div class="col-xs-4">
           <div class="form-group">
-            <label for="inputemail">Votre email</label>
+            <label for="inputemail">Email</label>
             <input type="text" name="email" class="form-control" id="inputemail" value="<?= isset($_SESSION['inputs']['email']) ? $_SESSION['inputs']['email'] : ''; ?>">
           </div>
         </div>
@@ -188,7 +188,7 @@
         </div>
         <div class="col-xs-12">
           <div class="form-group ">
-            <label for="inputmessage">Votre message</label>
+            <label for="inputmessage">Message</label>
             <textarea id="inputmessage" name="message" class="form-control champMessage"><?= isset($_SESSION['inputs']['message']) ? $_SESSION['inputs']['message'] : ''; ?></textarea>
           </div>
           <button type="submit" class="btn btn-primary test col-xs-2 col-xs-offset-5">Envoyer</button>

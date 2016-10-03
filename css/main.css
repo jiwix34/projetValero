@@ -55,7 +55,7 @@ h1 {
 
 @media (max-width: 768px) {
   .listecoordonne {
-    font-size: 16px; }
+    font-size: 20px; }
 
   .groupCoordonnees {
     margin-left: -30px;
