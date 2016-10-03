@@ -68,46 +68,65 @@
         <h2 id="prestation">Mes services</h2>
       </header>
 
- <!--div des images des secteurs d'acitivités de Valéro  -->
+ <!--images en bootstrap-->
 
-      <div id="grossediv">
+ <div class="container">
+    <div class="row">
+     <div class="col-sm-6 col-md-4 col-md-offset-1">
+       <div class="thumbnail">
+         <img src="./css/img/plomberie1.jpg">
+           <h3>Plomberie</h3>
+           <ul class="groupelisteprestation">
+             <li class="listeprestation">Installation sanitaire (tout type)</li>
+             <li class="listeprestation">Localisation fuite d'eau</li>
+             <li class="listeprestation">Réparation fuite d'eau</li>
+           </ul>
+       </div>
+       </div>
+       <div class="col-sm-6 col-md-4 col-md-offset-2">
+         <div class="thumbnail">
+           <img src="./css/img/renov1.jpg">
+             <h3>Rénovation</h3>
+             <ul class="groupelisteprestation">
+               <li class="listeprestation">Création / Rénovation de salle de bain</li>
+               <li class="listeprestation">Pose de carrelage</li>
+               <li class="listeprestation">Modifications électriques</li>
+             </ul>
+         </div>
+     </div>
+   </div>
 
-<!--div service 1-->
-
-        <div id="divprestation1">
-          <img class="imgprestation" src="./css/img/plomberie.jpg"/>
-              <ul class="ulservice1">
-                <li class="service1">-Installation sanitaire(tout type)</li>
-              </ul>
-        </div>
-
-    <!--div service 2-->
-
-        <div id="divprestation2">
-          <img class="imgprestation" src="./css/img/chauffagerie.jpg"/>
-            <ul class="ulservice2">
-              <li class="service2">-Pompe à chaleur </li>
-              <li class="service2">-Chauffage au sol</li>
-              <li class="service2">-Installateur de chaudière</li>
-              <li class="service2">-Remplacement de chaudière</li>
-              <li class="service2">-Radiateur</li>
-              <li class="service2">-Agréer le gaz</li>
-
-            </ul>
-      </div>
-
-      <!--div service 3-->
-
-      <div id="divprestation3">
-        <img class="imgprestation" src="./css/img/renovation.jpg"/>
-          <ul class="ulservice3">
-            <li class="service3">-Création de salle de bain</li>
-            <li class="service3">-Rénovation de salle de bain</li>
-            <li class="service3">-Pose de carrelage de faïence</li>
-            <li class="service3">-Modifications électriques</li>
-          </ul>
-      </div>
-    </div>
+   <div class="row">
+    <div class="col-sm-6 col-md-4 col-md-offset-1">
+     <div class="thumbnail">
+       <img src="./css/img/assainissement.jpg">
+         <h3>Assainissement</h3>
+         <ul class="groupelisteprestation">
+           <li class="listeprestation">Recherche/réparation de fuite d'eau</li>
+           <li class="listeprestation">Distributions des réseaux d'alimentation</li>
+           <li class="listeprestation">Pose de meuble de salle de bain</li>
+           <li class="listeprestation">Appareil de traitement de l'eaux</li>
+           <li class="listeprestation">Ballon thermodynamique</li>
+           <li class="listeprestation">Remplacement ballon électrique</li>
+         </ul>
+     </div>
+   </div>
+   <div class="col-sm-6 col-md-4 col-md-offset-2">
+     <div class="thumbnail">
+       <img src="./css/img/chauffagerie1.jpg">
+         <h3>Chauffagerie</h3>
+         <ul>
+           <li class="listeprestation">Pompe à chaleur</li>
+           <li class="listeprestation">Chauffage au sol</li>
+           <li class="listeprestation">Installateur chaudière</li>
+           <li class="listeprestation">Remplacement chaudière</li>
+           <li class="listeprestation">Radiateur</li>
+           <li class="listeprestation">Agréage du gaz</li>
+         </ul>
+     </div>
+   </div>
+ </div>
+</div>
 
     </section>
 

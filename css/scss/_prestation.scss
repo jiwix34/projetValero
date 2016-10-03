@@ -1,73 +1,33 @@
-/*div principale*/
-#grossediv{
-  display: flex;
-  justify-content: space-between;
+.container{
+  margin:auto;
+}
+.row{
+  margin-top:20px;
+}
+h3{
+  text-align:center;
+  font-size:30px;
 }
 
-@media (max-width:768px){
-  #grossediv{
-    display: block;
-    text-align: center;
+.groupelisteprestation{
+  padding: 0;
+  padding-top: 20px;
+}
+
+.listeprestation{
+  list-style:none;
+  text-align:center;
+  font-size: 20px;
+}
+
+@media(min-width:992px){
+  .listeprestation{
+  font-size:15px;
   }
 }
-/*class img*/
 
-.imgprestation{
-  width:300px;
-  height:300px;
-    }
-
-/*div1 qui englobe img + liste*/
-  #divprestation1{
-
+@media(min-width:768px){
+  .listeprestation{
+  font-size:16px;
   }
-
-/*class ul service 1*/
-  .ulservice1{
-    margin-top:20px;
-    text-align: center;
-    padding-left:0;
-    padding-top:10px;
-  }
-
-/*service1*/
-
-.service1{
-  font-size: 20px;
-  list-style:none;
-    }
-/*div2 qui englobe img + liste*/
-
-  #divprestation2{
-  ;
-  }
-
-  .ulservice2{
-    margin-top:20px;
-    text-align: left;
-    padding-left:0;
-    padding-top:10px;
-  }
-
-.service2{
-  font-size: 20px;
-  list-style:none;
-    }
-
-/*div3 qui englobe img + liste*/
-
-#divprestation3{
-  ;
-  }
-
-  .ulservice3{
-    margin-top:20px;
-    text-align: left;
-    padding-left:0;
-    padding-top:10px;
-  }
-
-.service3{
-  font-size: 20px;
-  list-style:none;
 }
