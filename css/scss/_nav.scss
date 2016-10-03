@@ -1,4 +1,10 @@
+@media (max-width:768px) {
+  nav{
+    display: none;
+  }
+}
 /**container barre de nav**/
+@media (min-width:768px) {
 
 .containernav{
   background-color: black;
@@ -6,11 +12,10 @@
   line-height: 60px;
 }
 /**ul barre de nav**/
-
 .groupelistenav{
   display:flex;
-  justify-content: center;
-  margin-left: -60px;
+  justify-content: space-around;
+  margin-left: -120px;
 }
 
 /**liste barre de nav **/
@@ -22,13 +27,6 @@
   margin-left: 20px;
 }
 
-@media (min-width:768px) {
-  .groupelistenav{
-    display:flex;
-    justify-content: space-around;
-    margin-left: -120px;
-  }
-}
 
 /**lien barre de nav**/
 
@@ -43,4 +41,5 @@
 .listenav a:hover{
   transition: 0.5s;
   color:grey;
+}
 }
