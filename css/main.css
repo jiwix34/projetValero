@@ -151,6 +151,12 @@ h3 {
 .champMessage {
   resize: none; }
 
+#divscroll {
+  width: 20px;
+  position: fixed;
+  bottom: 20px;
+  left: 1px; }
+
 .copyright {
   text-align: center; }
 

@@ -53,9 +53,9 @@
       </header>
       <article class="texte">
           <p>
-            J’exerce le métier de plombier/chauffagiste depuis 1979.
-            J'interviens dans tout type de chantier.
-            Je travaille dans le neuf comme dans la rénovation.
+            Entreprise expérimentée d'installation sanitaire et chauffage.
+            J'interviens dans tout type de chantier,
+            dans le neuf comme dans la rénovation.
             Ma mobilité et mon expérience professionnelle me permettent de répondre au mieux à vos attentes.
           </p>
       </article>
@@ -78,8 +78,10 @@
            <h3>Plomberie</h3>
            <ul class="groupelisteprestation">
              <li class="listeprestation">Installation sanitaire (tout type)</li>
-             <li class="listeprestation">Localisation fuite d'eau</li>
-             <li class="listeprestation">Réparation fuite d'eau</li>
+             <li class="listeprestation">Recherche / réparation de fuite d'eau</li>
+             <li class="listeprestation">Distributions des réseaux d'alimentation</li>
+             <li class="listeprestation">Appareil de traitement de l'eau</li>
+             <li class="listeprestation">Pose et remplacement de ballon électrique</li>
            </ul>
        </div>
        </div>
@@ -102,26 +104,20 @@
        <img class="taillephoto" src="./css/img/assainissement.jpg">
          <h3>Assainissement</h3>
          <ul class="groupelisteprestation">
-           <li class="listeprestation">Recherche/réparation de fuite d'eau</li>
-           <li class="listeprestation">Distributions des réseaux d'alimentation</li>
-           <li class="listeprestation">Pose de meuble de salle de bain</li>
-           <li class="listeprestation">Appareil de traitement de l'eaux</li>
-           <li class="listeprestation">Ballon thermodynamique</li>
-           <li class="listeprestation">Remplacement ballon électrique</li>
+           <li class="listeprestation">Distributions d'évacuation aériennes</li>
+           <li class="listeprestation">Distributions d'évacutions enterrées</li>
          </ul>
      </div>
    </div>
    <div class="col-sm-6 col-md-4 col-md-offset-2">
      <div class="thumbnail">
        <img class="taillephoto" src="./css/img/chauffagerie1.jpg">
-         <h3>Chauffagerie</h3>
+         <h3>Chauffage</h3>
          <ul class="groupelisteprestation">
-           <li class="listeprestation">Pompe à chaleur</li>
+           <li class="listeprestation">Pose et remplacement de chaudière (tout type)</li>
            <li class="listeprestation">Chauffage au sol</li>
-           <li class="listeprestation">Installateur chaudière</li>
-           <li class="listeprestation">Remplacement chaudière</li>
            <li class="listeprestation">Radiateur</li>
-           <li class="listeprestation">Agréage du gaz</li>
+           <li class="listeprestation">Qualification gaz</li>
          </ul>
      </div>
    </div>
@@ -200,7 +196,8 @@
 </div>
 
  </section>
- <p class="copyright">José VALERO © Copyright 2016 Tous droits réservés</p>
+
+ <p class="copyright">Développement & création : Jimmy FRIEDBLATT & Thibaut FIGUERES</p>
 
 
 </footer>
