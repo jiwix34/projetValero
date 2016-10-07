@@ -53,7 +53,8 @@
       </header>
       <article class="texte">
           <p>
-            Entreprise expérimentée d'installation sanitaire et chauffage.
+            J'ai créé une entreprise spécialisée dans
+            l'installation sanitaire, le chauffage et la plomberie.
             J'interviens dans tout type de chantier,
             dans le neuf comme dans la rénovation.
             Ma mobilité et mon expérience professionnelle me permettent
