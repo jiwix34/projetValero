@@ -3,6 +3,7 @@
     display: none;
   }
 }
+
 /**container barre de nav**/
 @media (min-width:768px) {
 
@@ -11,6 +12,14 @@
   height: 60px;
   line-height: 60px;
 }
+
+.fixed{
+  position:fixed;
+  top:0;
+  z-index: 1;
+}
+
+
 /**ul barre de nav**/
 .groupelistenav{
   display:flex;
@@ -42,4 +51,10 @@
   transition: 0.5s;
   color:grey;
 }
+}
+
+.navfix{
+  position: fixed;
+  top:0;
+  z-index:1 ;
 }

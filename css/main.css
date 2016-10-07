@@ -80,6 +80,11 @@ h1 {
     height: 60px;
     line-height: 60px; }
 
+  .fixed {
+    position: fixed;
+    top: 0;
+    z-index: 1; }
+
   /**ul barre de nav**/
   .groupelistenav {
     display: flex;
@@ -103,6 +108,11 @@ h1 {
   .listenav a:hover {
     transition: 0.5s;
     color: grey; } }
+.navfix {
+  position: fixed;
+  top: 0;
+  z-index: 1; }
+
 .texte {
   text-align: center;
   font-size: 20px;
