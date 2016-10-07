@@ -12,6 +12,7 @@ $(document).ready(function() {
 		});
 	});
 
+/*fonction pour fixer la barre de nav des qu'on sort de la section accueil*/
 $(window).scroll(function() {
  var hauteurHeader = $(".opaque").height();
   if ($(this).scrollTop() > hauteurHeader){
