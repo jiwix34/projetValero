@@ -1,6 +1,4 @@
-body{
-  ;
-}
+
 .champMessage{
   resize:none;
 }
@@ -15,4 +13,10 @@ body{
 
 .copyright{
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  label{
+    font-size: 17px;
+  }
 }

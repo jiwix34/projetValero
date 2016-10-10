@@ -189,7 +189,7 @@
             <label for="inputmessage">Message</label>
             <textarea id="inputmessage" name="message" class="form-control champMessage"><?= isset($_SESSION['inputs']['message']) ? $_SESSION['inputs']['message'] : ''; ?></textarea>
           </div>
-          <button type="submit" class="btn btn-primary test col-xs-2 col-xs-offset-5">Envoyer</button>
+          <button type="submit" class="btn btn-primary test col-xs-4 col-xs-offset-4">Envoyer</button>
         </div>
       </div>
     </form>

@@ -14,3 +14,10 @@ padding-bottom:35px;
   line-height: 2.2;
   letter-spacing: 0.7px;
 }
+
+@media (max-width: 768px) {
+  .texte{
+    font-size: 21px;
+
+  }
+}
