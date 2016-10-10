@@ -199,7 +199,7 @@
 
  </section>
 
- <p class="copyright">Développé & créé par : <a href="http://www.jimmy-friedblatt.fr/">Jimmy FRIEDBLATT</a> &<a href="http://thibaut-figueres.fr/"> Thibaut FIGUERES</a></p>
+ <p class="copyright">Développé & propulsé par : <a href="http://www.jimmy-friedblatt.fr/">Jimmy FRIEDBLATT</a> &<a href="http://thibaut-figueres.fr/"> Thibaut FIGUERES</a></p>
 
 
 </footer>
