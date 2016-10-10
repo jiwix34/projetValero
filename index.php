@@ -24,7 +24,7 @@
       <header id="home" class="texteentete">
         <h1>JOSE VALERO</h1>
         <h1>Plombier - Chauffagiste - Assainissement</h1>
-        <h3>Siret: 415 009 133</h3>
+        <h3>Siret : 415 009 133</h3>
         <div class="sectionimage">
           <img class="logo" src="./css/img/logo3.png" alt="" /><!--img logo-->
         </div>
@@ -57,7 +57,7 @@
             l'installation sanitaire, le chauffage et la plomberie.
             J'interviens dans tout type de chantier,
             dans le neuf comme dans la rénovation.
-            Ma mobilité et mon expérience professionnelle me permettent
+            Ma mobilité ainsi que mon expérience professionnelle me permettent
             de répondre au mieux à vos attentes.
           </p>
       </article>
