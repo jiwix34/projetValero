@@ -207,11 +207,37 @@ label {
   display: flex;
   justify-content: center; }
 
-.btn-primary {
+.buttonpropriete {
   margin-bottom: 50px;
-  margin-top: 25px; }
+  margin-top: 25px;
+  background-color: #453d33;
+  color: white;
+  width: 20%; }
+
+.buttonpropriete:hover {
+  color: white; }
+
+@media (max-width: 768px) {
+  .buttonpropriete {
+    width: 40%; }
+
+  .taillechamp {
+    width: 40%; }
+
+  .centragechamp {
+    margin-left: 10%; }
+
+  .messageobjet {
+    width: 80%;
+    margin-left: 10%; } }
+.boutoncentre {
+  text-align: center; }
 
 .alert {
   text-align: center; }
+
+.form-control {
+  background-color: #453d33;
+  color: white; }
 
 /*# sourceMappingURL=main.css.map */

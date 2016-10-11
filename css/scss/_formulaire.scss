@@ -13,10 +13,42 @@ label{
   justify-content: center;
 }
 
-.btn-primary{
+.buttonpropriete{
   margin-bottom: 50px;
   margin-top: 25px;
+  background-color: #453d33;
+  color: white;
+  width: 20%;
 }
+
+.buttonpropriete:hover{
+  color: white;
+}
+@media (max-width: 768px) {
+  .buttonpropriete{
+    width: 40%;
+  }
+  .taillechamp{
+    width: 40%
+  }
+  .centragechamp{
+    margin-left: 10%;
+  }
+  .messageobjet{
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+///// div pour centrer le boutton /////
+.boutoncentre{
+  text-align: center;
+}
+///// fin /////
 .alert{
   text-align: center;
+}
+.form-control{
+  background-color: #453d33;
+  color: white;
 }
