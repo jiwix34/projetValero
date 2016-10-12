@@ -82,5 +82,14 @@ label{
 .form-control{
   background-color: #453d33;
   color: white;
+  border: 1px solid #3A332B;
+}
+///// fin /////
+
+///// rajout bordure au clic /////
+.form-control:focus{
+  border: 1px solid black;
+  box-shadow: none;
+  -webkit-box-shadow: none;
 }
 ///// fin /////
