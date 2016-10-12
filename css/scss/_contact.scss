@@ -1,22 +1,11 @@
-
-.champMessage{
-  resize:none;
-}
-
-#divscroll{
-  width:20px;
-
-  position:fixed;
-  bottom:20px;
-  left:1px;
-}
-
+///// textecopyright /////
 .copyright{
   text-align: center;
 }
+///// fin /////
 
-@media (max-width: 768px) {
-  label{
-    font-size: 17px;
-  }
+///// lien dans le copyright /////
+.copyright a{
+  color: black;
 }
+///// fin /////

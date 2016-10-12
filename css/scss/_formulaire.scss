@@ -1,18 +1,38 @@
-.champMessage{
-  resize: none;
-}
-.container{
+//// div qui englebe le formulaire /////
+.formulaire{
   margin-top: 50px;
 }
+///// fin /////
+
+///// taille champ message /////
 textarea.form-control{
   height: 200px;
 }
+///// fin /////
+
+///// enlever le redimantionement sur interface graphique /////
+.champMessage{
+  resize: none;
+}
+///// fin /////
+
+///// texte au dessus des champ de fomulaire /////
 label{
   color: black;
   display: flex;
   justify-content: center;
 }
+///// fin /////
 
+///// responsive texte au dessus des champ /////
+@media (max-width: 768px) {
+  label{
+    font-size: 17px;
+  }
+}
+///// fin /////
+
+///// boutton /////
 .buttonpropriete{
   margin-bottom: 50px;
   margin-top: 25px;
@@ -20,10 +40,15 @@ label{
   color: white;
   width: 20%;
 }
+///// fin /////
 
+///// boutton au passage de la souris /////
 .buttonpropriete:hover{
   color: white;
 }
+///// fin /////
+
+///// responsive formulaire /////
 @media (max-width: 768px) {
   .buttonpropriete{
     width: 40%;
@@ -39,16 +64,23 @@ label{
     margin-left: 10%;
   }
 }
+///// fin /////
 
 ///// div pour centrer le boutton /////
 .boutoncentre{
   text-align: center;
 }
 ///// fin /////
+
+///// message d'alert formulaire /////
 .alert{
   text-align: center;
 }
+///// fin /////
+
+///// couleur de fond et de texte du champ formulaire /////
 .form-control{
   background-color: #453d33;
   color: white;
 }
+///// fin /////

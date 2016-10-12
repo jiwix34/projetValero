@@ -1,60 +1,59 @@
+///// responsive en dessous de 768 px pour enlever bar nav /////
 @media (max-width:768px) {
   nav{
     display: none;
   }
 }
+///// fin /////
 
-/**container barre de nav**/
+///// debut du responsive a partir de 768 px /////
+///// container barre de nav /////
 @media (min-width:768px) {
-
 .containernav{
   background-color: #453d33;
   height: 60px;
   line-height: 60px;
 }
+///// fin /////
 
-.fixed{
-  position:fixed;
+///// class appeler dans le js pour fixer la bar de nav /////
+.navfix{
+  position: fixed;
   top:0;
-  z-index: 1;
+  z-index:1 ;
 }
+///// fin /////
 
-
-/**ul barre de nav**/
+///// ul barre de nav /////
 .groupelistenav{
   display:flex;
   justify-content: space-around;
   margin-left: -120px;
 }
+///// fin /////
 
-/**liste barre de nav **/
-
+///// liste barre de nav /////
 .listenav{
   color: white;
   list-style: none;
   font-size: 24px;
   margin-left: 20px;
 }
+///// fin /////
 
-
-/**lien barre de nav**/
-
+///// lien barre de nav /////
 .listenav a{
   text-decoration: none;
   color:white;
   transition: 0.5s;
 }
+///// fin /////
 
-/**hover barre de nav**/
-
+///// hover barre de nav /////
 .listenav a:hover{
   transition: 0.5s;
   color:grey;
 }
+///// fin /////
 }
-
-.navfix{
-  position: fixed;
-  top:0;
-  z-index:1 ;
-}
+///// fin du responsive /////

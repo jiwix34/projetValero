@@ -1,24 +1,29 @@
-/** div titre principal **/
-
+///// div qui englobe l'entete du site /////
 #fondtete{
   height: 600px;
   position: relative;
 }
+///// fin /////
 
+///// image dans l'entête du site derrière opaque /////
 .imagefond{
   background-image: url("./img/header.jpg");
   background-size: cover;
   width: 100%;
   height: 600px;
 }
+///// fin /////
 
+///// div qui et au dessus de lentete pour oppacité /////
 .opaque{
   width: 100%;
   position: absolute;
   height: 100%;
   background-color: rgba(0, 0, 0, .4);
 }
+///// fin /////
 
+///// texte qui se trouve dans l'entete /////
 .texteentete{
   top: 0;
   color: white;
@@ -27,33 +32,33 @@
   text-align: center;
   position: absolute;
   margin-top: 100px;
-
 }
-/**titre principal**/
+///// fin /////
 
+///// titre principal /////
 h1{
   font-size: 2.5em;
 }
+///// fin /////
 
-/**div id coordonnee**/
-
+///// div id coordonnee /////
 #coordonnee{
   background-color: #FFDAB4;
   height: 100px;
   line-height: 50px;
   text-align: center;
 }
+///// fin /////
 
-/**ul class coordonnee**/
-
+///// ul class coordonnee /////
 .groupCoordonnees{
   display: flex;
   justify-content: center;
   list-style: none;
 }
+//// fin /////
 
-/**liste class coordonnee**/
-
+ ///// liste class coordonnee /////
 .listecoordonne{
   color: white;
   margin-left: 15px;
@@ -61,11 +66,16 @@ h1{
   font-size: 20px;
   margin-top: 30px;
 }
+///// fin /////
+
+///// lien dans liste coordonee
 .listecoordonne a{
   color: white;
   text-decoration: none;
 }
+///// fin /////
 
+///// responsive ul et liste /////
 @media (max-width: 768px) {
   .listecoordonne{
     font-size: 20px;
@@ -75,13 +85,19 @@ h1{
     display: block;
   }
 }
+///// fin responsive /////
+
+///// div qui englobe le logo /////
 .sectionimage{
   text-align: center;
   height: auto;
   width: 100%;
 }
-/**redimension du logo**/
+///// fin /////
+
+///// redimension du logo /////
 .logo{
   height: 130px;
   width: 130px;
 }
+///// fin /////

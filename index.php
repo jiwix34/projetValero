@@ -6,14 +6,13 @@
     <meta name="viewport" content="width=device-width, , minimum-scale=1, user-scalable=no"><!--responsive---->
     <link rel="shortcut icon" href="./css/img/logo.png"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/><!--bootstrap----->
-    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
     <link rel="stylesheet" href="./css/main.css"/><!---css------>
 
     <title> Projet valero </title>
   </head>
   <body>
 
-     <!-- carte de visite -->
+<!--div fondtete-->
 
     <div id="fondtete">
       <div class="imagefond">
@@ -72,8 +71,8 @@
 
  <!--images en bootstrap-->
 
- <div class="container">
-    <div class="row">
+ <div class="container presta">
+    <div class="row rowprestation">
      <div class="col-sm-6 col-md-4 col-md-offset-1">
        <div class="thumbnail">
          <img class="taillephoto" src="./css/img/plomberie1.jpg">
@@ -100,7 +99,7 @@
      </div>
    </div>
 
-   <div class="row">
+   <div class="row rowprestation">
     <div class="col-sm-6 col-md-4 col-md-offset-1">
      <div class="thumbnail">
        <img class="taillephoto" src="./css/img/assainissement.jpg">
@@ -138,7 +137,7 @@
       </p>
     </article>
 
-<div class="container">
+<div class="container formulaire">
   <div class="starter-template">
 
     <?php if(array_key_exists('errors', $_SESSION)): ?>
@@ -153,7 +152,7 @@
     <?php endif; ?>
 
     <form action="post_contact.php" method="POST">
-      <div class="row">
+      <div class="row rowformulaire">
         <div class="col-xs-3 col-xs-offset-3 taillechamp centragechamp">
           <div class="form-group">
             <label for="inputname">Nom</label>
@@ -201,11 +200,13 @@
 
  </section>
 
+<!--partie copyright-->
+
  <p class="copyright">Développé & propulsé par : <a href="http://www.jimmy-friedblatt.fr/">Jimmy FRIEDBLATT</a> &<a href="http://thibaut-figueres.fr/"> Thibaut FIGUERES</a></p>
 
 
 </footer>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
 <script type="text/javascript" src="./js/smoothscroll.js"></script>
 </body>
 </html>
@@ -214,5 +215,4 @@
 unset($_SESSION['inputs']);
 unset($_SESSION['errors']);
 unset($_SESSION['success']);
-
 ?>
