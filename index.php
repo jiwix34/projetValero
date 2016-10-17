@@ -105,8 +105,8 @@
        <img class="taillephoto" src="./css/img/assainissement.jpg">
          <h3>Assainissement</h3>
          <ul class="groupelisteprestation">
-           <li class="listeprestation">Distributions d'évacuation aériennes</li>
-           <li class="listeprestation">Distributions d'évacutions enterrées</li>
+           <li class="listeprestation">Distributions d'évacuations aériennes</li>
+           <li class="listeprestation">Distributions d'évacuations enterrées</li>
          </ul>
      </div>
    </div>
@@ -173,7 +173,7 @@
         </div>
         <div class="col-xs-3 testage taillechamp">
           <div class="form-group">
-            <label for="inputtelephone">Telephone</label>
+            <label for="inputtelephone">Téléphone</label>
             <input type="text" name="telephone" class="form-control" id="inputtelephone" value="<?= isset($_SESSION['inputs']['telephone']) ? $_SESSION['inputs']['telephone'] : ''; ?>">
           </div>
         </div>
