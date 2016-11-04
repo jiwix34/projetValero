@@ -3,6 +3,10 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="description" content=" José Valero Plombier. J'ai créé une entreprise spécialisée dans l'installation sanitaire, le chauffage et la plomberie." />
+    <meta name="author" content="Jimmy Friedblatt, Thibaut Figueres, José Valéro"/>
+    <meta name="keywords" content="jose, valero, plomberie, plombier, assainissement, chauffagiste, chauffage, sanitaire, rénovation, travaux,
+    plombier montpellier, lunel, plombier lunel, montpellier, Saint-Just, Lunel-Viel, plomberie Saint-Just plomberie, Lunel-Viel"/>
     <meta name="viewport" content="width=device-width, , minimum-scale=1, user-scalable=no"><!--responsive---->
     <link rel="shortcut icon" href="./css/img/logo.png"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/><!--bootstrap----->
@@ -23,12 +27,12 @@
       <header id="home" class="texteentete">
         <h1>JOSE VALERO</h1>
         <h1>Plombier - Chauffagiste - Assainissement</h1>
-        <h3>Siret : 415 009 133</h3>
+        <h3>Tel : <a href="tel:0686485940">06.86.48.59.40</a></h3>
         <div class="sectionimage">
           <img class="logo" src="./css/img/logo3.png" alt="" /><!--img logo-->
         </div>
         <ul class="groupCoordonnees">
-          <li class="listecoordonne"><a href="tel:0686485940">Tel: 06.86.48.59.40</a></li>
+          <li class="listecoordonne">Siret : 415 009 133</li>
           <li class="listecoordonne">Email: jvservices34@gmail.com</li>
         </ul>
       </header>

@@ -30,8 +30,8 @@ if(!empty($errors)){
 $_SESSION['success'] = 1;
 $message = "Email de l'expéditeur : " . $_POST['email']."\r\n". "Nom de l'expéditeur : " . $_POST['name'] . "\r\n". "Prenom : " . $_POST['prenom'] . "\r\n";
 $message .= "Telephone : " . $_POST['telephone'] . "\r\n". "Objet : " . $_POST['objet'] . "\r\n\n". "Message : " ."\r\n". $_POST["message"];
-$header = 'FROM: jvservices34@gmail.com';
-mail("jvservices34@gmail.com", $_POST['objet'],utf8_decode($message), $header);
+$header = 'FROM: jvservices@gmail.com';
+mail("jvservices@gmail.com", $_POST['objet'],utf8_decode($message), $header);
 mail($_POST['email'], "confirmation de contact",utf8_decode("J'ai bien reçu votre demande de contact.\r\nJe vous recontacte dès que possible.\r\n\nJosé VALERO"), $header);
 header('Location: index.php');
 
