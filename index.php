@@ -33,7 +33,7 @@
         </div>
         <ul class="groupCoordonnees">
           <li class="listecoordonne">Siret : 415 009 133</li>
-          <li class="listecoordonne">Email: jvservices34@gmail.com</li>
+          <li class="listecoordonne">Email: jvservices@gmail.com</li>
         </ul>
       </header>
     </div>
