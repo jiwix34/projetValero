@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/><!--bootstrap----->
     <link rel="stylesheet" href="./css/main.css"/><!---css------>
 
-    <title> Projet valero </title>
+    <title> JV services </title>
   </head>
   <body>
 
@@ -56,7 +56,7 @@
       </header>
       <article class="texte">
           <p>
-            J'ai créé une entreprise spécialisée dans
+            Je suis une entreprise spécialisée dans
             l'installation sanitaire, le chauffage et la plomberie.
             J'interviens dans tout type de chantier,
             dans le neuf comme dans la rénovation.
