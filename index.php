@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/><!--bootstrap----->
     <link rel="stylesheet" href="./css/main.css"/><!---css------>
 
-    <title> JV services </title>
+    <title> Projet valero </title>
   </head>
   <body>
 
@@ -56,7 +56,7 @@
       </header>
       <article class="texte">
           <p>
-            Je suis une entreprise spécialisée dans
+            J'ai créé une entreprise spécialisée dans
             l'installation sanitaire, le chauffage et la plomberie.
             J'interviens dans tout type de chantier,
             dans le neuf comme dans la rénovation.
@@ -206,7 +206,7 @@
 
 <!--partie copyright-->
 
- <p class="copyright">Développé & propulsé par : <a href="http://www.jimmy-friedblatt.fr/">Jimmy FRIEDBLATT</a> &<a href="http://thibaut-figueres.fr/"> Thibaut FIGUERES</a></p>
+ <p class="copyright">Développé & propulsé par : <a href="http://www.jimmy-friedblatt.fr/" target="new">Jimmy FRIEDBLATT</a> &<a href="http://thibaut-figueres.fr/" target="new"> Thibaut FIGUERES</a></p>
 
 
 </footer>
