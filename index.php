@@ -56,7 +56,7 @@
       </header>
       <article class="texte">
           <p>
-            J'ai créé une entreprise spécialisée dans
+            Je suis une entreprise spécialisée dans
             l'installation sanitaire, le chauffage et la plomberie.
             J'interviens dans tout type de chantier,
             dans le neuf comme dans la rénovation.
